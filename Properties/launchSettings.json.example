@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:22139",
+      "sslPort": 44332
+    }
+  },
+  "profiles": {
+    "panel.back": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:7098;http://localhost:5098",
+      "dotnetRunMessages": true
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "environmentVariables": {
+        "seqHost": "",
+        "seqAPI": "",
+        "validAudience": "",
+        "validIssuer": "",
+        "issuerSigningKey": "",
+        "mysqlHost": "",
+        "mysqlPort": "",
+        "mysqlUser": "",
+        "mysqlPass": "",
+        "mysqlDB": ""
+      },
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  }
+}
